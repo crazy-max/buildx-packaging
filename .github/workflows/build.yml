@@ -30,7 +30,7 @@ jobs:
     steps:
       -
         name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
+        uses: crazy-max/ghaction-dump-context@v2
       -
         name: Checkout
         uses: actions/checkout@v3
